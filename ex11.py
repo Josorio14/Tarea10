@@ -5,7 +5,7 @@ def menu_principal():
         2.Calculadora reals
         3.Salir
         """)
-    x = int(input("Elegir una opción"))
+    x = int(input("Elegir una opción:"))
     if x>0 and x<4:
         return x
     else:
