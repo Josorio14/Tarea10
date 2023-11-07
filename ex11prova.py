@@ -29,20 +29,20 @@ def calculadora_enteros():
                 y = int(input("Introduce el segundo número a sumar"))
                 print("Resultado: {} + {} = {}".format(x, y, x+y))
             case 2: #Restar
-                x = int(input("Introduce el primer número a restar:"))
-                y = int(input("Introduce el segundo número a restar:"))
+                x = int(input("Introduce el primer número a restar"))
+                y = int(input("Introduce el segundo número a restar"))
                 print("Resultado: {} - {} = {}".format(x, y, x-y))
             case 3: #Multiplicar
-                x = int(input("Introduce el primer número a multiplicar:"))
-                y = int(input("Introduce el segundo número a multiplicar:"))
+                x = int(input("Introduce el primer número a restar"))
+                y = int(input("Introduce el segundo número a restar"))
                 print("Resultado: {} * {} = {}".format(x, y, x*y))
             case 4: #Dividir
-                x = int(input("Introduce el primer número a dividir:"))
-                y = int(input("Introduce el segundo número a dividir:"))
+                x = int(input("Introduce el primer número a restar"))
+                y = int(input("Introduce el segundo número a restar"))
                 print("Resultado: {} / {} = {}".format(x, y, x/y))
             case 5: #Cambio de valores
-                x = int(input("Introduce el primer número a cambiar:"))
-                y = int(input("Introduce el segundo número a cambiar:"))
+                x = int(input("Introduce el primer número"))
+                y = int(input("Introduce el segundo número"))
             case 6: #Salir
                 print("Adiós, volveras al menú principal")
                 b = -1
