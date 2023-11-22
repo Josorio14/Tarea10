@@ -2,7 +2,7 @@
 #Funciones
 def menu_principal():
     print("""       
-        Menú principal:
+        Menú principal:\n
         1.Calculadora enteros
         2.Calculadora reals
         3.Salir
@@ -14,7 +14,7 @@ def calculadora_enteros():
     b = 1
     while b>0:
         print("""
-        Menú calculadora enteros:
+        Menú calculadora enteros:\n
           1) Suma
           2) Resta
           3) Multiplicación
@@ -44,7 +44,7 @@ def calculadora_enteros():
                 x = int(input("Introduce el primer número a cambiar:"))
                 y = int(input("Introduce el segundo número a cambiar:"))
             case 6: #Salir
-                print("Adiós, volveras al menú principal")
+                print("Adiós, volveras al menú principal\n")
                 b = -1
               
 
@@ -52,7 +52,7 @@ def calculadora_reales():
     b = 1
     while b>0:
         print("""
-        Menú calculadora reales:
+        Menú calculadora reales:\n
           1) Suma
           2) Resta
           3) Multiplicación
@@ -71,18 +71,18 @@ def calculadora_reales():
                 y = float(input("Introduce el segundo número a restar"))
                 print("Resultado: {} - {} = {}".format(x, y, x-y))
             case 3: #Multiplicar
-                x = float(input("Introduce el primer número a restar"))
-                y = float(input("Introduce el segundo número a restar"))
+                x = float(input("Introduce el primer número a multiplicar:"))
+                y = float(input("Introduce el segundo número a multiplicar:"))
                 print("Resultado: {} * {} = {}".format(x, y, x*y))
             case 4: #Dividir
-                x = float(input("Introduce el primer número a restar"))
-                y = float(input("Introduce el segundo número a restar"))
+                x = float(input("Introduce el primer número a dividir:"))
+                y = float(input("Introduce el segundo número a dividir:"))
                 print("Resultado: {} / {} = {}".format(x, y, x/y))
             case 5: #Cambio de valores
-                x = float(input("Introduce el primer número"))
-                y = float(input("Introduce el segundo número"))
+                x = float(input("Introduce el primer número:"))
+                y = float(input("Introduce el segundo número:"))
             case 6: #Salir
-                print("Adiós, volveras al menú principal")
+                print("Adiós, volveras al menú principal\n")
                 b = -1
 
 
