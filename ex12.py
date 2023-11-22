@@ -216,7 +216,6 @@ def calculadora_de_cambios_de_bases():
                 print("Adiós, volveras al menú principal \n")
                 e = -1
 
-
 #Programa principal     
 a = 1
 while a>0:
