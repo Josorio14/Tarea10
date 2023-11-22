@@ -4,7 +4,7 @@
 
 def menu_principal():
     print("""       
-        Menú principal:  \n
+        Menú principal: \n
         1.Calculadora enteros
         2.Calculadora reales
         3.Cambio de bases
