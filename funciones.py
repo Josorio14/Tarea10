@@ -55,6 +55,8 @@ print("el valor del diccionario antes de cambiar es: {}".format(a))
 cambio(a)
 print("El valor del diccionario después de cambiar es: {}".format(a))
 """
+
+#Este ejercicio cambia las listas en orden
 def cambio(l,m,n): 
     print("1) {}{} \n {}".format(l, m, n))
     l = "Adiós, "

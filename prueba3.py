@@ -57,45 +57,6 @@ e = int(input("Elegeixi l'element que vol cercar la 3a ocurrencia: "))
 tercera_ocurrencia(l, e)
 """
 
-#Funciones de cambios de base
-#De decimal a binario, octal y hexadecimal
-def dectobin(numero):
-    return bin(numero)
-
-def dectooct(numero):
-    return oct(numero)
-def dectohex(numero):
-    return hex(numero)
-
-#Programa principal
-
-x = int(input("Introduce un número en decimal:"))
-print(dectobin(x))
-
-
-
-#Este esta hecho bin a todos
-def bintooct(numero):
-    a=int(numero,2)
-    return dectooct(a) 
-def bintodec(numero):
-    a=int(numero,2)
-    return a
-def bintohex(numero):
-    a=int(numero,2)
-    return dectohex(a)
-
-#Este esta hecho octal a todos
-def octtobin(numero):
-    a= int(numero,8)
-    return dectobin(a)
-def octtodec(numero):
-    a= int(numero,8)
-    return a
-def octtohex(numero):
-    a= int(numero,8)
-    return dectohex(a) 
-
 
 
 
