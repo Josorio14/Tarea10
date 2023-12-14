@@ -1,8 +1,8 @@
 def longitud_de_una_lista(a):
-			long = 0
-			for i in a:
-				long +=1
-			return long
+	long = 0
+	for i in a:
+		long +=1
+	return long
 
 #Ejemplo de la longitud de la cadena de carácteres
 a = "El amor lo conquista todo"
