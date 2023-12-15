@@ -22,6 +22,8 @@ def cambioTemplo():
 #  Selecciona aleatoriamente si el jugador supera o no el enigma. 
 # Actualiza los puntos del jugador y muestra un mensaje correspondiente.
 def encuentro(cambioTemplo, puntos):
+
+    # Imprimemensajes narrativos con pausas temporales usando 'time.sleep'
     print("Te estás acercando al templo...")
     time.sleep(2)
     print("Es un lugar mágico y lleno de misterio...")
@@ -29,7 +31,9 @@ def encuentro(cambioTemplo, puntos):
     print("Una figura enigmática aparece, te mira y ...")
     print("")
     time.sleep(2)
+    # Generar un número aleatorio (1 o 2) para representar al guardián del templo
     guardián = random.randint(1, 2)
+    # Verifica si la elección del jugador (cambioTemplo) coincide con el guardián
     if cambioTemplo == str(guardián):
         puntos += 1
         print("Superas el enigma con éxito... Tienes {} puntos".format(puntos))
